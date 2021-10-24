@@ -1,5 +1,5 @@
 node default {
-   file { '/root/README':
+   file { '/root/README' :
    enable => file,
    content => 'this is a readmexx',
    owner => 'ec2-user',
