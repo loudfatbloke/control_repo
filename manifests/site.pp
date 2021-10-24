@@ -1,5 +1,5 @@
 node default {
-   file {'/root/README':
+   file {'/tmp/README':
    enable => file,
    content => 'this is a readmexx',
    }
