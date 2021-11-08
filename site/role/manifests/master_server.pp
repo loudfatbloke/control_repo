@@ -1,3 +1,3 @@
-class role::master_server {
-include profile::base
+class role::master {
+include profile::r10k
 }
